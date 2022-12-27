@@ -71,6 +71,6 @@ static void add_edge(hash_table_t *hash_table,hash_table_node_t *from,const char
           to_representative = from_representative;
       }
   }
-  //
+  link=to_representative;
 }
 
